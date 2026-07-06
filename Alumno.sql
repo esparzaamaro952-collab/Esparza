@@ -9,7 +9,7 @@ CREATE TABLE [dbo].[Alumno] (
     PRIMARY KEY CLUSTERED ([rut] ASC)
 );
 
--- 2. Insertar los datos con comas
+-- 2. Insertar los datos
 INSERT INTO [dbo].[Alumno] (rut, nombre, nota1, nota2, nota3, promFinal) 
 VALUES ('1234-5', 'Elseb Ollín', 6,3, 5,2, 5,9, 5,8);
 
