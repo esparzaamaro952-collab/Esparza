@@ -1,0 +1,111 @@
+﻿body {
+    background-color: #FDFBF7;
+    color: #3E362E;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3E362E;
+    text-align: center;
+}
+
+    ul li {
+        display: inline;
+    }
+
+        ul li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+            ul li a:hover {
+                background-color: #5D5045;
+            }
+
+.contenedor-centrado {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+    min-height: 500px;
+}
+
+.tarjeta-formulario {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #EBE4DD;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+}
+
+.btn-guardar-alumno {
+    background-color: #3E362E;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+    .btn-guardar-alumno:hover {
+        background-color: #5D5045;
+        color: white;
+    }
+
+.btn-eliminar-alumno {
+    background-color: #A33333;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+    .btn-eliminar-alumno:hover {
+        background-color: #822828;
+        color: white;
+    }
+
+.nombre {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: #3E362E;
+    background-color: #F8F5F2;
+}
+
+#hero {
+    height: 400px;
+    background-image: url("https://media.istockphoto.com/id/2086558437/es/vector/escuela-con-montaje-tipo-aula.jpg?s=612x612&w=0&k=20&c=c-PwhgkJBTJfm52vlDPCKRYcD6-3N-G9kq94NHwIpBc=");
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    text-align: center;
+}
+
+    #hero > h1 {
+        color: #fefee8;
+        font-size: 36px;
+    }
+
+    #hero > a {
+        background-color: #3E362E;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
